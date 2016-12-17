@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>LibraryManagementSystem</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+</head>
+<body style="background: url(images/default.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover;">
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="materialize/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+    <!-- navigation bar-->
+    <nav>
+        <div class="nav-wrapper blue-grey">
+            <a href="#!" class="brand-logo grey-text text-darken-4" style="font-weight: 100">&nbsp;Library Management System</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="grey-text text-darken-3" href="index.html">Home</a></li>
+                <li><a class="grey-text text-darken-3" href="login.jsp">Login</a></li>
+                <li><a class="grey-text text-darken-3" href="About.html">About</a></li>
+            </ul>
+            <ul class="side-nav blue-grey darken-1" id="mobile-demo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.jsp">Login</a></li>
+                <li><a href="Register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <br>
+
+            <br>
+
+           <div class="col s12 yellow-text center-align" style="font-size: 40pt;"><span style="font-weight: 100; " class=""><h2><q>Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.</q></h2><h4>Charles William Eliot</h4></span></div>
+           <div class="center-align"><img src="images/book_icon_index.png" title="book icon" /></div>
+            <div class="col s12 yellow-text center-align" style="font-size: 20pt;"><span style="font-weight: 300; ">Library Management System has been established to provide users that visit this website an intuitive way of managing books with a digitized system<br></span></div>
+
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+        });
+
+        $(document).ready(function () {
+            $('.collapsible').collapsible();
+        });
+
+    </script>
+</body>
+</html>
